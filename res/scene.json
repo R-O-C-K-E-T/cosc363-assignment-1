@@ -1,0 +1,1720 @@
+{
+    "gravity": [
+        0.0,
+        -9.8100004196167,
+        0.0
+    ],
+    "skybox": [
+        "skybox_front.bmp",
+        "skybox_back.bmp",
+        "skybox_top.bmp",
+        "skybox_bottom.bmp",
+        "skybox_left.bmp",
+        "skybox_right.bmp"
+    ],
+    "objects": [
+        {
+            "name": "Plane",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Plane.obj",
+            "position": [
+                0.0,
+                0.0,
+                12.0
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "reuse_shadow": true,
+            "texture": "floor.jpg",
+            "collider": {
+                "type": "shape",
+                "source": "Plane.obj"
+            }
+        },
+        {
+            "name": "teapot",
+            "colour": [
+                0.0,
+                0.0003904379846062511,
+                1.0
+            ],
+            "main_shape": "teapot.obj",
+            "position": [
+                0.0,
+                1.1358498334884644,
+                -0.32938575744628906
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "reuse_shadow": true,
+            "collider": {
+                "type": "shape",
+                "source": "teapot.obj"
+            }
+        },
+        {
+            "name": "Sphere",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Sphere.obj",
+            "position": [
+                12.328275680541992,
+                12.870095252990723,
+                18.77256202697754
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "texture": "beachball.png",
+            "collider": {
+                "type": "sphere",
+                "radius": 1.0
+            },
+            "density": 10.0
+        },
+        {
+            "name": "Sphere.001",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Sphere.obj",
+            "position": [
+                -7.90274715423584,
+                43.56926727294922,
+                -18.664453506469727
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "texture": "beachball.png",
+            "collider": {
+                "type": "sphere",
+                "radius": 1.0
+            },
+            "density": 10.0
+        },
+        {
+            "name": "Path.032",
+            "colour": [
+                1.0,
+                0.5028862953186035,
+                0.0
+            ],
+            "main_shape": "Path.032.obj",
+            "position": [
+                -26.099348068237305,
+                29.715770721435547,
+                -6.225335597991943
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "reuse_shadow": true,
+            "collider": {
+                "type": "shape",
+                "source": "Path.032.obj"
+            }
+        },
+        {
+            "name": "Path.051",
+            "colour": [
+                1.0,
+                0.5028862953186035,
+                0.0
+            ],
+            "main_shape": "Path.051.obj",
+            "position": [
+                13.76570987701416,
+                -1.827621579170227,
+                16.283653259277344
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "reuse_shadow": true,
+            "collider": {
+                "type": "shape",
+                "source": "Path.051.obj"
+            }
+        },
+        {
+            "name": "Link",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.obj",
+            "position": [
+                -8.552517890930176,
+                6.496872901916504,
+                21.886280059814453
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.obj"
+            }
+        },
+        {
+            "name": "Link.001",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.001.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                21.711299896240234
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.001.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.002",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.002.obj",
+            "position": [
+                -8.552518844604492,
+                6.321885108947754,
+                21.361268997192383
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.002.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.003",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.003.obj",
+            "position": [
+                -8.552517890930176,
+                6.321885108947754,
+                21.011293411254883
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.003.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.004",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.004.obj",
+            "position": [
+                -8.552518844604492,
+                6.321885108947754,
+                20.661300659179688
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.004.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.005",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.005.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                20.311262130737305
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.005.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.006",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.006.obj",
+            "position": [
+                -8.552517890930176,
+                6.321885108947754,
+                19.961280822753906
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.006.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.007",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.007.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                19.611278533935547
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.007.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.008",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.008.obj",
+            "position": [
+                -8.552517890930176,
+                6.321885108947754,
+                19.261281967163086
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.008.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.009",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.009.obj",
+            "position": [
+                -8.552517890930176,
+                6.321885108947754,
+                18.561267852783203
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.009.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.010",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.001.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                18.211299896240234
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.001.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.011",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.002.obj",
+            "position": [
+                -8.552518844604492,
+                6.32188606262207,
+                17.861268997192383
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.002.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.012",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.003.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                17.511293411254883
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.003.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.013",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.004.obj",
+            "position": [
+                -8.552518844604492,
+                6.32188606262207,
+                17.161300659179688
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.004.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.014",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.005.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                16.811262130737305
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.005.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.015",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.006.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                16.461280822753906
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.006.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.016",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.007.obj",
+            "position": [
+                -8.552517890930176,
+                6.32188606262207,
+                16.111278533935547
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.007.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.017",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.017.obj",
+            "position": [
+                -8.552517890930176,
+                6.321885108947754,
+                18.91126823425293
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.017.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.018",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.obj",
+            "position": [
+                -7.552517414093018,
+                6.496872901916504,
+                21.886280059814453
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.obj"
+            }
+        },
+        {
+            "name": "Link.019",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.001.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                21.711299896240234
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.001.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.020",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.002.obj",
+            "position": [
+                -7.552518367767334,
+                6.321885108947754,
+                21.361268997192383
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.002.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.021",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.003.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                21.011293411254883
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.003.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.022",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.004.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                20.661300659179688
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.004.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.023",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.005.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                20.311262130737305
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.005.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.024",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.006.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                19.961280822753906
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.006.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.025",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.007.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                19.611278533935547
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.007.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.026",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.008.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                19.261281967163086
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.008.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.027",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.009.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                18.561267852783203
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.009.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.028",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.001.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                18.211299896240234
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.001.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.029",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.002.obj",
+            "position": [
+                -7.552518367767334,
+                6.32188606262207,
+                17.861268997192383
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.002.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.030",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.003.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                17.511293411254883
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.003.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.031",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.004.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                17.161300659179688
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.004.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.032",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.005.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                16.811262130737305
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.005.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.033",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.006.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                16.461280822753906
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.006.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.034",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.007.obj",
+            "position": [
+                -7.552517414093018,
+                6.32188606262207,
+                16.111278533935547
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.007.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Link.035",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "Link.017.obj",
+            "position": [
+                -7.552517414093018,
+                6.321885108947754,
+                18.91126823425293
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Link.017.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "Seat.001",
+            "colour": [
+                0.07999991625547409,
+                0.031651388853788376,
+                0.0026349287945777178
+            ],
+            "main_shape": "Seat.001.obj",
+            "position": [
+                -8.052517890930176,
+                6.321885108947754,
+                15.886280059814453
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "collider": {
+                "type": "shape",
+                "source": "Seat.001.obj"
+            },
+            "density": 1.0
+        },
+        {
+            "name": "SeesawBase",
+            "colour": [
+                0.10653336346149445,
+                0.0846826434135437,
+                0.04989121854305267
+            ],
+            "main_shape": "SeesawBase.obj",
+            "position": [
+                0.0,
+                0.0,
+                11.0
+            ],
+            "friction": 0.4000000059604645,
+            "restitution": 0.30000001192092896,
+            "reuse_shadow": true,
+            "collider": {
+                "type": "shape",
+                "source": "SeesawBase.obj"
+            }
+        },
+        {
+            "name": "SeesawBody",
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "main_shape": "SeesawBody.obj",
+            "position": [
+                -1.5640223338664327e-08,
+                5.38283634185791,
+                11.0
+            ],
+            "friction": 0.5399999618530273,
+            "restitution": 0.38999998569488525,
+            "texture": "wood1.jpg",
+            "collider": {
+                "type": "shape",
+                "source": "SeesawBody.obj"
+            },
+            "density": 0.15000000596046448
+        }
+    ],
+    "constraints": [
+        {
+            "objects": [
+                "Link",
+                "Link.001"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -0.17498779296875,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.001",
+                "Link.002"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    0.17501068115234375
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.002",
+                "Link.003"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    -0.1749897003173828
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.1749858856201172
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.003",
+                "Link.004"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17501258850097656
+                ],
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.004",
+                "Link.005"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    -0.1750202178955078
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.175018310546875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.005",
+                "Link.006"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17498207092285156
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.006",
+                "Link.007"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17499923706054688
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.1750030517578125
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.009",
+                "Link.010"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17498779296875
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.010",
+                "Link.011"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    0.17501068115234375
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.011",
+                "Link.012"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    -0.1749897003173828
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.1749858856201172
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.012",
+                "Link.013"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17501258850097656
+                ],
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.013",
+                "Link.014"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.175018310546875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.014",
+                "Link.015"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17498207092285156
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.015",
+                "Link.016"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17499923706054688
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.1750030517578125
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.007",
+                "Link.008"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17499732971191406
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.008",
+                "Link.017"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.1750011444091797
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17501258850097656
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.017",
+                "Link.009"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17498779296875
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17501258850097656
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.018",
+                "Link.019"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -0.17498779296875,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.019",
+                "Link.020"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    0.17501068115234375
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.020",
+                "Link.021"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    0.0,
+                    -0.1749897003173828
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.1749858856201172
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.021",
+                "Link.022"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17501258850097656
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.022",
+                "Link.023"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.1750202178955078
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.175018310546875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.023",
+                "Link.024"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17498207092285156
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.024",
+                "Link.025"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17499923706054688
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.1750030517578125
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.027",
+                "Link.028"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17498779296875
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.028",
+                "Link.029"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    0.17501068115234375
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.029",
+                "Link.030"
+            ],
+            "locals": [
+                [
+                    9.5367431640625e-07,
+                    -9.5367431640625e-07,
+                    -0.1749897003173828
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.1749858856201172
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.030",
+                "Link.031"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17501258850097656
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17498016357421875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.031",
+                "Link.032"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.1750202178955078
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.175018310546875
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.032",
+                "Link.033"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17498207092285156
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.033",
+                "Link.034"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17499923706054688
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.1750030517578125
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.025",
+                "Link.026"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.17499732971191406
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17499923706054688
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.026",
+                "Link.035"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.1750011444091797
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17501258850097656
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Link.035",
+                "Link.027"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    0.0,
+                    -0.17498779296875
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.17501258850097656
+                ]
+            ],
+            "type": "ball_and_socket"
+        },
+        {
+            "objects": [
+                "Seat.001",
+                "Link.016"
+            ],
+            "locals": [
+                [
+                    -0.5,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.22499847412109375
+                ]
+            ],
+            "type": "hinge",
+            "vectors": [
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ],
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ]
+            ]
+        },
+        {
+            "objects": [
+                "Seat.001",
+                "Link.034"
+            ],
+            "locals": [
+                [
+                    0.5000004768371582,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -9.5367431640625e-07,
+                    -0.22499847412109375
+                ]
+            ],
+            "type": "hinge",
+            "vectors": [
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ],
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ]
+            ]
+        },
+        {
+            "objects": [
+                "SeesawBase",
+                "SeesawBody"
+            ],
+            "locals": [
+                [
+                    0.0,
+                    5.0,
+                    0.0
+                ],
+                [
+                    1.5640223338664327e-08,
+                    -0.38283634185791016,
+                    0.0
+                ]
+            ],
+            "type": "hinge",
+            "vectors": [
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ],
+                [
+                    0.0,
+                    7.549790126404332e-08,
+                    1.0
+                ]
+            ]
+        }
+    ],
+    "lights": [
+        {
+            "type": "direction",
+            "direction": [
+                0.6357201933860779,
+                -0.7039598226547241,
+                0.31670239567756653
+            ],
+            "colour": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

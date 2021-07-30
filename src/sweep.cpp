@@ -9,7 +9,7 @@ std::shared_ptr<Shape> generate_sweep_surface(const std::vector<glm::vec3> point
 
     auto add_vertex = [&](glm::vec3 pos) {
         vertices.push_back(pos);
-        return vertices.size() - 1;
+        return (int)vertices.size() - 1;
     };
 
     auto add_normal = [&](glm::vec3 normal) {

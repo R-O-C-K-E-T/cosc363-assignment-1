@@ -7,6 +7,9 @@
 
 ## Usage
 ```bash
+git submodule init
+git submodule update
+
 # Build
 mkdir build
 cd build
